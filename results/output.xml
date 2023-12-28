@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231220 02:39:22.898" rpa="false" schemaversion="4">
+<suite id="s1" name="Vehicle" source="C:\Users\Caio\Desktop\Nova pasta\automacaoROBOT\BDD\Tests\Vehicle\Vehicle.robot">
+<test id="s1-t1" name="cenario 1: Cadastro aba Enter Vehicle Data" line="7">
+<kw name="Dado que eu acesso o site do Engine">
+<msg timestamp="20231220 02:39:22.970" level="FAIL">No keyword with name 'Dado que eu acesso o site do Engine' found.</msg>
+<status status="FAIL" starttime="20231220 02:39:22.969" endtime="20231220 02:39:22.970"/>
+</kw>
+<kw name="Quando cadastro a aba Enter Vehicle Data">
+<status status="NOT RUN" starttime="20231220 02:39:22.973" endtime="20231220 02:39:22.973"/>
+</kw>
+<kw name="E clico no botão Next">
+<status status="NOT RUN" starttime="20231220 02:39:22.978" endtime="20231220 02:39:22.978"/>
+</kw>
+<kw name="Então acesso a aba Enter Insurant Data">
+<status status="NOT RUN" starttime="20231220 02:39:22.988" endtime="20231220 02:39:22.988"/>
+</kw>
+<status status="FAIL" starttime="20231220 02:39:22.963" endtime="20231220 02:39:22.988">No keyword with name 'Dado que eu acesso o site do Engine' found.</status>
+</test>
+<status status="FAIL" starttime="20231220 02:39:22.902" endtime="20231220 02:39:22.992"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Vehicle">Vehicle</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231220 02:39:22.960" level="ERROR">Error in file 'C:\Users\Caio\Desktop\Nova pasta\automacaoROBOT\BDD\Steps\Main_steps.robot' on line 3: Resource file 'Vehicle\Vehicle.steps.robot' does not exist.</msg>
+</errors>
+</robot>
