@@ -164,7 +164,7 @@ Quando cadastro a aba Enter Insurant Data
     Capture Page Screenshot   
     
 Quando cadastro a aba Enter Product Data
-    Input text       ${Start_Date}             05/10/2024
+    Input text       ${Start_Date}             05/07/2024
     Click Element     ${Insurance_Sum}    
     Click Element      ${Damage_Insurance}
     Wait Until Element Is Visible         ${Optional_Products}
