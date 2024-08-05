@@ -9,7 +9,7 @@ Dado que eu acesso a aba Enter Product Data
     Maximize Browser Window
 
 Quando cadastro a aba Enter Product Data
-    Input text       ${Products.Start_Date}             05/10/2024
+    Input text       ${Products.Start_Date}             05/07/2024
     Click Element     ${Products.Insurance_Sum}    
     Click Element      ${Products.Damage_Insurance}
     Wait Until Element Is Visible      ${Products.optional_products}
